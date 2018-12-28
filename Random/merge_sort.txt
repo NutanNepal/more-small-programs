@@ -1,0 +1,6 @@
+explaining merge sort to myself:
+                    [ 12, 8, 13, 5, 4, 6, 3, 2, 5, 2 ]
+[12]    [8]     [13]    [5]     [4]     [6]     [3]     [2]     [5]     [2]
+    [8, 12]         [5, 13]         [4, 6]          [2, 3]          [2, 5]
+take i,j. compare 8, 5. push 5 to output and j++. then compare 8 to 13
+        [5, 8, 12, ]

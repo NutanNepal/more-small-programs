@@ -9,4 +9,4 @@ main = do
     print (cw x y)
 
 cw :: Int -> Int -> [Int]
-cw x y = [ x^n | n <- [2^(z - 1) | z <- [1..y] ] ]
+cw x y = [ x^n | n <- [(2 :: Int)^(z - 1) | z <- [1..y] ] ]
