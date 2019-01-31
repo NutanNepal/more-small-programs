@@ -1,3 +1,5 @@
+{-
+
 main :: IO()
 main = print fibb 1000
 
@@ -8,3 +10,5 @@ fibb n
             let x = 0
                 a = b = 0
                 c = y = 1
+
+-}
